@@ -1,0 +1,28 @@
+  Plan for the Breakout game
+
+In this game I will try to create a multi-player version of the Breakout game,
+for example, there can be two players who need to cooperate with each other to play the game. There 
+are two paddles in this game and these two players can operate on any of the paddle. But I want to add 
+a constraint that if the two paddles collide with each other then there should be some punishment to 
+the result of the game. Thus the two players should make sure that they do not collide and the ball do 
+not hit the bottom at the same time.
+
+I want to create three levels for this game. And the first level is easy, the second level is harder than
+ the first one and the third level is the hardest. I will try to decrease the size of the paddles as the 
+ level increases. I also want to change the speed of the ball so that as the level increases  the speed of 
+ the ball is faster.
+ 
+ I want to create three different blocks. Some blocks are cleared after 1 hit. Some other blocks need 2 hits
+ to be cleared out. And there will be blocks which give power-ups.
+ 
+ I will make the ball bounce differently depending on where it hits. The paddle can hold the ball and release
+  it at a later time. The two paddles can become one paddle if the two players want one longer paddle.
+ 
+ I will make three different kinds of power-ups. Some blocks drop power-ups when they are destroyed which,
+  when caught by the player's paddle, affect the game in various ways: making the paddle longer, speeding up 
+  the ball, decreasing the speed of the ball.
+  
+  I will make one cheat key.  When one of the two players inputs a numeric key (i.e., 1-3), clear the 
+  current level and jump to the level corresponding to the number. 
+  
+  I want to add some background images or songs to make the game more interesting.
